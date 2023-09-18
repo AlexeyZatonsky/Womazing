@@ -17,5 +17,5 @@ class Adress(Base):
     city = Column(String)
     street = Column(String)
     number = Column(String)
-    user_uuid = Column(UUID, ForeignKey(User.uuid))
+    user_uuid = Column(UUID, ForeignKey(User.id))
 
